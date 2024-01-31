@@ -1,9 +1,14 @@
 body{
     font-family: 'Verdana';
+    margin: 0;
 }
 
 header{
     width:100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100000; 
 }
 .inner_box {
     width: 1180px;
@@ -61,6 +66,7 @@ section{
     height: 6000px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 120px;
 }
 article{
     float:left;
@@ -115,8 +121,8 @@ article{
     margin-top:10px;
 }
 .div_article_4{
-    width: 500px;
-    height: 250px;
+    width: 490px;
+    height: 490px;
     margin-top: 10px;
 }
 .article_4{
@@ -130,7 +136,7 @@ article{
     width:300px;
     font-size: small;
     left: 50%;
-    margin-left: -150px; /* 절반의 너비만큼 왼쪽으로 이동 */
+    margin-left: -150px; 
     top: 160px;
 }
 .article_4_1{
@@ -152,15 +158,22 @@ article{
     width:500px;
     height:490px;
     margin-top: 10px;
+    margin-left:10px;
 }
 .article_6{
-    display: flex;
     background-image: url("1000x371.png");
-    justify-content: center;
-    align-items: center;
     width:1000px;
     height:371px;
     margin-top: 10px;
+    position: relative;
+}
+.article_6_inner_box{
+    width:1000px;
+    height:auto;
+    text-align: center;
+    top:50%;
+    transform: translate(0,-50%);
+    position: absolute;
 }
 .article_6_word{
     font-size: 50px;
@@ -182,14 +195,13 @@ article{
     right:30px;
     bottom:40px;
 }
-.article_7_big_word{
-    font-size: 30px;
-    color:white;
-    font-weight: bold;
-    margin:0px;
-}
 .article_7_small_word{
     font-size: 20px;
     color:white;
     margin:0px;
+}
+strong{
+    font-size: 30px;
+    color:white;
+    font-weight: bold;
 }
