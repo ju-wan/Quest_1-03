@@ -168,14 +168,9 @@ article{
     position: relative;
     text-align: center;
 }
-.article_6_inner_box{
-    width:auto;
-    height:auto;
-    position: absolute;
-    top:25%;
-    left:150px;
-}
 .article_6_word{
+    line-height: 371px;
+    margin: auto;
     font-size: 50px;
     color:white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
