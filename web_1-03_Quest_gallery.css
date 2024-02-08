@@ -166,14 +166,14 @@ article{
     height:371px;
     margin-top: 10px;
     position: relative;
+    text-align: center;
 }
 .article_6_inner_box{
-    width:1000px;
+    width:auto;
     height:auto;
-    text-align: center;
-    top:50%;
-    transform: translate(0,-50%);
     position: absolute;
+    top:25%;
+    left:150px;
 }
 .article_6_word{
     font-size: 50px;
